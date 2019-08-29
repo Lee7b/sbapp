@@ -25,9 +25,11 @@ class Home extends React.Component {
           <Nav />
           <Intro />
           <About />
-          <Skills />
-          <Projects />
-          <Contact />
+          <div className="container"> {/* Put the skills/projects/contact sections in container div */}
+            <Skills />
+            <Projects />
+            <Contact />
+          </div>
         </div>
         
     )
