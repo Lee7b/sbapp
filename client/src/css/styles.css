@@ -63,3 +63,7 @@ header {
   #contactme a {
 	color: black;
 }
+
+.col {
+	padding: 1rem;
+}

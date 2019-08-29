@@ -6,9 +6,7 @@ import { Element } from 'react-scroll'
 const Skills = props => {
     return (
      <MDBContainer style={{marginBottom:"50px"}}>
-
         <Element name="skills" className="element" />
-
         <h1 className="text-center">Skills</h1>
         <MDBRow>
         <MDBListGroup data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" style={{ width: "70rem" }}>
