@@ -5,7 +5,7 @@ import { Element } from 'react-scroll'
 class Projects extends React.Component {
     render () {
     return (
-        <div className="projects row" style={{overflowX:"hidden", overflowY:"hidden"}}>
+        <div className="projects row container" style={{overflowX:"hidden", overflowY:"hidden"}}>
           <Element name="projects" className="element" />
           <h1 className="text-center">Projects</h1>
           <MDBRow>
