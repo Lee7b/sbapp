@@ -16,7 +16,7 @@ class Contact extends React.Component {
 
                             <MDBCardImage
                             src="./img/maccoding.jpg"
-                            className=""
+                            className="img-fluid"
                             />
                             <MDBCardBody>
                                 <MDBCardTitle className="indigo-text h5 m-4">
