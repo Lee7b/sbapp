@@ -4,12 +4,10 @@ import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBC
 class Contact extends React.Component {
     render () {
     return (
-        <div id="contact" style={{paddingTop:"200px"}}>
+        <section id="contact">
             {/* <MDBContainer className="mt-5 text-center"> */}
                 <div>
-
-                    <h1>CONTACT ME</h1>
-                    {/* <MDBRow>
+                    <MDBRow>
                         <MDBCol>
                         <MDBJumbotron className="text-center">
                             <MDBCardTitle className="card-title h4 pb-2">
@@ -59,10 +57,10 @@ class Contact extends React.Component {
                             </MDBCardBody>
                         </MDBJumbotron>
                         </MDBCol>
-                    </MDBRow> */}
+                    </MDBRow>
                 </div>
             {/* </MDBContainer> */}
-        </div>
+        </section>
     )
   }
 }
