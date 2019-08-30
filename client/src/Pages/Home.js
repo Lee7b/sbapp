@@ -17,7 +17,7 @@ class Home extends React.Component {
       duration : 2000,
       offset : -110,
       once : true,
-      disable : mobile
+      disable : 'mobile'
     })
   }
     render () {
