@@ -29,7 +29,7 @@ class Contact extends React.Component {
 
                             <MDBCol className="d-flex justify-content-center mt-4" md="12">
                                 <MDBCol md="3" className="d-flex justify-content-around">
-                                <a href="https://www.linkedin.com/in/samuel-burkett/"><MDBIcon
+                                {/* <a href="https://www.linkedin.com/in/samuel-burkett/"><MDBIcon
                                     fab
                                     icon="linkedin-in"
                                     className="grey-text"
@@ -51,7 +51,7 @@ class Contact extends React.Component {
                                     icon="envelope"
                                     className="grey-text"
                                     size="lg"
-                                /></a>
+                                /></a> */}
                                 </MDBCol>
                             </MDBCol>
                             </MDBCardBody>
