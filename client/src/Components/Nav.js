@@ -21,7 +21,7 @@ class Nav extends React.Component {
   render() {
     return (
           <div>
-            <MDBNavbar color="bg-dark" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbar color="bg-dark" fixed="top" dark expand="md">
               <MDBNavbarBrand href="/">
                 <strong>SB</strong>
               </MDBNavbarBrand>
