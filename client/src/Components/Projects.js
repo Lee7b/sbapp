@@ -9,7 +9,7 @@ class Projects extends React.Component {
           <Element name="projects" className="element" />
           <h1 className="text-center">Projects</h1>
           <MDBRow>
-              <MDBCol className="d-flex justify-content-center" data-aos="fade-down-right">
+              <MDBCol className="d-flex justify-content-center">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>sbappv3</strong></MDBCardHeader>
                 <MDBCardBody>
@@ -20,7 +20,7 @@ class Projects extends React.Component {
               </MDBCard>
               </MDBCol>
 
-              <MDBCol className="d-flex justify-content-center" data-aos="fade-down-left">
+              <MDBCol className="d-flex justify-content-center">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>sbappv2</strong></MDBCardHeader>
                 <MDBCardBody>
@@ -33,7 +33,7 @@ class Projects extends React.Component {
           </MDBRow>
 
           <MDBRow>
-              <MDBCol className="d-flex justify-content-center" data-aos="fade-up-right">
+              <MDBCol className="d-flex justify-content-center">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>SBX Photography</strong></MDBCardHeader>
                 <MDBCardBody>             
@@ -44,7 +44,7 @@ class Projects extends React.Component {
               </MDBCard>
               </MDBCol>
 
-              <MDBCol className="d-flex justify-content-center" data-aos="fade-up-left">
+              <MDBCol className="d-flex justify-content-center">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>Rock paper scissors game</strong></MDBCardHeader>
                 <MDBCardBody>                 
