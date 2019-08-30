@@ -4,9 +4,9 @@ import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBC
 class Contact extends React.Component {
     render () {
     return (
-        <div id="contact">
-            <MDBContainer className="mt-5 text-center">
-                <div>
+        <section id="contact">
+            {/* <MDBContainer className="mt-5 text-center"> */}
+                <div data-aos="zoom-in">
                     <MDBRow>
                         <MDBCol>
                         <MDBJumbotron className="text-center">
@@ -19,43 +19,43 @@ class Contact extends React.Component {
                             className="img-fluid"
                             />
                             <MDBCardBody>
-                            <MDBCardTitle className="indigo-text h5 m-4">
-                                Social Media and Contact information
-                            </MDBCardTitle>
-                            <MDBCardText>
-                                You can reach out to me through social media or email. My email is sburk377@gmail.com. 
-                                I will respond as soon as possible. Thank you!
-                            </MDBCardText>
+                                <MDBCardTitle className="indigo-text h5 m-4">
+                                    Social Media and Contact information
+                                </MDBCardTitle>
+                                <MDBCardText>
+                                    You can reach out to me through social media or email. My email is sburk377@gmail.com. 
+                                    I will respond as soon as possible. Thank you!
+                                </MDBCardText>
 
-                            <MDBCol className="d-flex justify-content-center mt-4" md="12">
-                                <MDBCol md="3" className="d-flex justify-content-around">
-                                <a href="https://www.linkedin.com/in/samuel-burkett/"><MDBIcon
-                                    fab
-                                    icon="linkedin-in"
-                                    className="grey-text"
-                                    size="lg"
-                                /></a>
-                                <a href="https://www.facebook.com/sam.burkett.71"><MDBIcon
-                                    fab
-                                    icon="facebook-f"
-                                    className="grey-text"
-                                    size="lg"
-                                /></a>
-                                <a href="https://www.github.com/Lee7b"><MDBIcon
-                                    fab
-                                    icon="github"
-                                    className="grey-text"
-                                    size="lg"
-                                /></a>
+                                <MDBCol className="d-flex justify-content-center mt-4" md="12">
+                                    <MDBCol md="3" className="d-flex justify-content-around">
+                                    <a href="https://www.linkedin.com/in/samuel-burkett/"><MDBIcon
+                                        fab
+                                        icon="linkedin-in"
+                                        className="grey-text"
+                                        size="lg"
+                                    /></a>
+                                    <a href="https://www.facebook.com/sam.burkett.71"><MDBIcon
+                                        fab
+                                        icon="facebook-f"
+                                        className="grey-text"
+                                        size="lg"
+                                    /></a>
+                                    <a href="https://www.github.com/Lee7b"><MDBIcon
+                                        fab
+                                        icon="github"
+                                        className="grey-text"
+                                        size="lg"
+                                    /></a>
+                                    </MDBCol>
                                 </MDBCol>
-                            </MDBCol>
                             </MDBCardBody>
                         </MDBJumbotron>
                         </MDBCol>
                     </MDBRow>
                 </div>
-            </MDBContainer>
-        </div>
+            {/* </MDBContainer> */}
+        </section>
     )
   }
 }

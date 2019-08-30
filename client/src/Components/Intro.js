@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 class Intro extends React.Component { 
     render () {
         return (
-          <div>
+          <section>
             <header>
               <div className="overlay"></div>
               <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
@@ -36,7 +36,7 @@ class Intro extends React.Component {
                   </div>
               </div>
              </header>
-          </div>
+          </section>
         )
     }
 }

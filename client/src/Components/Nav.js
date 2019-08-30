@@ -57,7 +57,6 @@ class Nav extends React.Component {
                     </a>
                   </MDBNavItem>
                 </MDBNavbarNav>
-
               </MDBCollapse>
             </MDBNavbar>
           </div>

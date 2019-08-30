@@ -61,6 +61,6 @@ header {
 }
 
 /* Styling for projects section */
-.projects .col {
+#projects .col {
 	padding: 1rem;
 }
