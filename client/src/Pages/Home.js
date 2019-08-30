@@ -16,8 +16,7 @@ class Home extends React.Component {
     AOS.init({
       duration : 2000,
       offset : -110,
-      once : true,
-      disable : true
+      once : true
     })
   }
     render () {
