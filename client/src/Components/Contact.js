@@ -5,8 +5,8 @@ class Contact extends React.Component {
     render () {
     return (
         <section id="contact">
-            <MDBContainer className="mt-5 text-center">
-                {/* <div data-aos="zoom-in"> */}
+            {/* <MDBContainer className="mt-5 text-center"> */}
+                <div data-aos="zoom-in">
                     <MDBRow>
                         <MDBCol>
                         <MDBJumbotron className="text-center">
@@ -16,7 +16,7 @@ class Contact extends React.Component {
 
                             <MDBCardImage
                             src="./img/maccoding.jpg"
-                            className="img-fluid"
+                            className=""
                             />
                             <MDBCardBody>
                                 <MDBCardTitle className="indigo-text h5 m-4">
@@ -53,8 +53,8 @@ class Contact extends React.Component {
                         </MDBJumbotron>
                         </MDBCol>
                     </MDBRow>
-                {/* </div> */}
-            </MDBContainer>
+                </div>
+            {/* </MDBContainer> */}
         </section>
     )
   }
