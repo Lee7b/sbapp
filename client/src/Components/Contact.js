@@ -5,8 +5,8 @@ class Contact extends React.Component {
     render () {
     return (
         <div id="contact">
-            <MDBContainer className="mt-5 text-center" data-aos="zoom-in">
-                <div>
+            <MDBContainer className="mt-5 text-center">
+                <div data-aos="zoom-in">
                     <MDBRow>
                         <MDBCol>
                         <MDBJumbotron className="text-center">
