@@ -14,7 +14,8 @@ class Home extends React.Component {
   }
   componentDidMount(){
     AOS.init({
-      duration : 2000
+      duration : 2000,
+      offset : -200
     })
   }
     render () {
