@@ -1,13 +1,12 @@
 import React from 'react';
-import { MDBContainer, MDBBtn, MDBCard, MDBCardBody, MDBCardHeader, MDBCardTitle, MDBCardText, MDBRow, MDBCol} from 'mdbreact';
-import { Element } from 'react-scroll'
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardHeader, MDBCardTitle, MDBCardText, MDBRow, MDBCol} from 'mdbreact';
 
 class Projects extends React.Component {
     render () {
     return (
-        <div className="projects container" style={{overflowX:"hidden", overflowY:"hidden"}}  data-aos="fade-down-right">
-          <Element name="projects" className="element" />
+        <div id="projects" className="projects container" style={{overflowX:"hidden", overflowY:"hidden"}}>
           <h1 className="text-center">Projects</h1>
+          <div data-aos="fade-down-right">
           <MDBRow>
               <MDBCol className="d-flex justify-content-center">
               <MDBCard style={{width:"500px"}}>
@@ -54,6 +53,7 @@ class Projects extends React.Component {
               </MDBCard>
               </MDBCol>
           </MDBRow>
+          </div>
         </div>
     )
   }

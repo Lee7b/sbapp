@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBIcon } from 'mdbreact';
-import { Link } from 'react-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Nav extends React.Component {
   constructor(props) {
@@ -29,19 +29,19 @@ class Nav extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <Link className="nav-link" to="home" smooth={true}>Home</Link>
+                    <AnchorLink className="nav-link" href="#home">Home</AnchorLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link className="nav-link" to="about" smooth={true}>About</Link>
+                    <AnchorLink offset="100" className="nav-link" href="#about">About</AnchorLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link className="nav-link" to="skills" smooth={true}>Skills</Link>
+                    <AnchorLink offset="100" className="nav-link" href="#skills">Skills</AnchorLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link className="nav-link" to="projects" smooth={true}>Projects</Link>
+                    <AnchorLink offset="100" className="nav-link" href="#projects">Projects</AnchorLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link className="nav-link" to="contact" smooth={true}>Contact</Link>
+                    <AnchorLink className="nav-link" href="#contact">Contact</AnchorLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
 

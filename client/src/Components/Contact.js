@@ -1,14 +1,11 @@
 import React from 'react';
-import { Element } from 'react-scroll'
 import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBCardImage, MDBCardBody, MDBCardText } from "mdbreact";
-
 
 class Contact extends React.Component {
     render () {
     return (
-        <div>
-            <Element name="contact" className="element" />
-            <MDBContainer className="mt-5 text-center">
+        <div id="contact">
+            <MDBContainer className="mt-5 text-center" data-aos="zoom-in">
                 <div>
                     <MDBRow>
                         <MDBCol>

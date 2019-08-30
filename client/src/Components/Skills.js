@@ -1,14 +1,12 @@
 import React from 'react';
 import { MDBListGroup, MDBListGroupItem, MDBContainer, MDBIcon, MDBRow } from "mdbreact";
-import { Element } from 'react-scroll'
 
 
 class Skills extends React.Component {
     render() {
         return (
-            <div>
+            <div id="skills">
             <MDBContainer style={{marginBottom:"50px"}}>
-                <Element name="skills" className="element" />
                 <h1 className="text-center">Skills</h1>
                 <MDBRow>
                 <MDBListGroup data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" style={{ width: "70rem" }}>
@@ -37,11 +35,11 @@ class Skills extends React.Component {
                 <MDBRow>
                 <MDBListGroup data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" style={{ width: "70rem" }}>
                 <MDBListGroupItem className="newactive"><MDBIcon icon="code" className="pr-3"/>My Toolkit</MDBListGroupItem>
-                    <MDBListGroupItem><MDBIcon fab icon="java" className="pr-3"/>Visual Studio</MDBListGroupItem>
-                    <MDBListGroupItem><MDBIcon fab icon="java" className="pr-3"/>Eclipse</MDBListGroupItem>
-                    <MDBListGroupItem><MDBIcon fab icon="java" className="pr-3"/>IntelliJ</MDBListGroupItem>
-                    <MDBListGroupItem><MDBIcon fab icon="java" className="pr-3"/>Git/GitHub</MDBListGroupItem>
-                    <MDBListGroupItem><MDBIcon fab icon="java" className="pr-3"/>Postman</MDBListGroupItem>
+                    <MDBListGroupItem><MDBIcon icon="laptop-code" className="pr-3"/>Visual Studio</MDBListGroupItem>
+                    <MDBListGroupItem><MDBIcon icon="laptop-code" className="pr-3"/>Eclipse</MDBListGroupItem>
+                    <MDBListGroupItem><MDBIcon icon="laptop-code" className="pr-3"/>IntelliJ</MDBListGroupItem>
+                    <MDBListGroupItem><MDBIcon icon="laptop-code" className="pr-3"/>Git/GitHub</MDBListGroupItem>
+                    <MDBListGroupItem><MDBIcon icon="laptop-code" className="pr-3"/>Postman</MDBListGroupItem>
                     <MDBListGroupItem><MDBIcon fab icon="linux" className="pr-3"/>Linux</MDBListGroupItem>
                 </MDBListGroup>
                 </MDBRow>

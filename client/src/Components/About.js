@@ -1,12 +1,10 @@
 import React from 'react';
-import { Element } from 'react-scroll';
 import { MDBRow, MDBCol } from 'mdbreact';
 
 class About extends React.Component { 
     render () {
         return (
-          <div>
-            <Element name="about" className="element" />
+          <div id="about">
             <div id="aboutme" className="blue-grey darken-4" style={{marginBottom:"50px"}}>
                 <div className="container">
                     <MDBRow className="d-flex align-items-center py-5"> {/* Vertically center content and add padding to top/bottom */}
