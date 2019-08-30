@@ -4,7 +4,7 @@ import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBC
 class Contact extends React.Component {
     render () {
     return (
-        <div id="contact" style={{paddingBottom:"50px"}}>
+        <div id="contact" style={{paddingTop:"200px"}}>
             {/* <MDBContainer className="mt-5 text-center"> */}
                 <div>
                     <MDBRow>
