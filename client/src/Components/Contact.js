@@ -9,7 +9,7 @@ class Contact extends React.Component {
         <div>
             <Element name="contact" className="element" />
             <MDBContainer className="mt-5 text-center">
-                <div data-aos="zoom-in">
+                <div>
                     <MDBRow>
                         <MDBCol>
                         <MDBJumbotron className="text-center">
@@ -51,7 +51,6 @@ class Contact extends React.Component {
                                     size="lg"
                                 /></a>
                                     <a href="mailto:sburk377@gmail.com"><MDBIcon
-                                    fas
                                     icon="envelope"
                                     className="grey-text"
                                     size="lg"

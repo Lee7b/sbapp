@@ -11,7 +11,7 @@ class About extends React.Component {
                 <div className="container">
                     <MDBRow className="d-flex align-items-center py-5"> {/* Vertically center content and add padding to top/bottom */}
                         <MDBCol>
-                            <img src="img/code1.svg" alt="AboutMeImage" style={{width:"300px", height:"auto"}}></img>  
+                            <img src="img/code1.svg" alt="AboutMeImage" style={{height:"250px"}}></img>  
                         </MDBCol>
                         <MDBCol>                       
                             <h2 className="text-center"><strong>About me</strong></h2>
