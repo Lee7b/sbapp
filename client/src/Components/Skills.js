@@ -6,7 +6,7 @@ class Skills extends React.Component {
     render() {
         return (
             <div id="skills">
-            <MDBContainer style={{marginBottom:"50px"}}>
+            <MDBContainer>
                 <h1 className="text-center">Skills</h1>
                 <MDBRow>
                 <MDBListGroup data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" style={{ width: "70rem" }}>

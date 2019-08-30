@@ -5,7 +5,7 @@ class About extends React.Component {
     render () {
         return (
           <div id="about">
-            <div id="aboutme" className="blue-grey darken-4" style={{marginBottom:"50px"}}>
+            <div id="aboutme" className="blue-grey darken-4">
                 <div className="container">
                     <MDBRow className="d-flex align-items-center py-5"> {/* Vertically center content and add padding to top/bottom */}
                         <MDBCol>
