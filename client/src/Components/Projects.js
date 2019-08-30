@@ -5,11 +5,11 @@ import { Element } from 'react-scroll'
 class Projects extends React.Component {
     render () {
     return (
-        <div>
+        <div className="projects">
           <Element name="projects" className="element" />
-
+          <h1 className="text-center">Projects</h1>
           <MDBRow>
-              <MDBCol className="d-flex justify-content-center">
+              <MDBCol className="d-flex justify-content-center" data-aos="fade-down-right">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>sbappv3</strong></MDBCardHeader>
                 <MDBCardBody>
@@ -20,7 +20,7 @@ class Projects extends React.Component {
               </MDBCard>
               </MDBCol>
 
-              <MDBCol className="d-flex justify-content-center">
+              <MDBCol className="d-flex justify-content-center" data-aos="fade-down-left">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>sbappv2</strong></MDBCardHeader>
                 <MDBCardBody>
@@ -33,7 +33,7 @@ class Projects extends React.Component {
           </MDBRow>
 
           <MDBRow>
-              <MDBCol className="d-flex justify-content-center">
+              <MDBCol className="d-flex justify-content-center" data-aos="fade-up-right">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>SBX Photography</strong></MDBCardHeader>
                 <MDBCardBody>             
@@ -44,7 +44,7 @@ class Projects extends React.Component {
               </MDBCard>
               </MDBCol>
 
-              <MDBCol className="d-flex justify-content-center">
+              <MDBCol className="d-flex justify-content-center" data-aos="fade-up-left">
               <MDBCard style={{width:"500px"}}>
                 <MDBCardHeader><strong>Rock paper scissors game</strong></MDBCardHeader>
                 <MDBCardBody>                 

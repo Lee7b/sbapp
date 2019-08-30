@@ -25,7 +25,8 @@ class Home extends React.Component {
           <Nav />
           <Intro />
           <About />
-          <div className="container"> {/* Put the skills/projects/contact sections in container div */}
+          {/* Put the skills/projects/contact sections in container div (better for mobile) */}
+          <div className="container">
             <Skills />
             <Projects />
             <Contact />

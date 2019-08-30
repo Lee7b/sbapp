@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBIcon } from 'mdbreact';
 import { Link } from 'react-scroll'
 
-class FullPageIntroWithFixedTransparentNavbar extends React.Component {
+class Nav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -65,4 +65,4 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
   }
 }
 
-export default FullPageIntroWithFixedTransparentNavbar;
+export default Nav;
