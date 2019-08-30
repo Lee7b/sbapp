@@ -4,7 +4,7 @@ import { MDBRow, MDBCol } from 'mdbreact';
 class About extends React.Component { 
     render () {
         return (
-          <div id="about">
+          <div id="about" style={{paddingBottom:"50px"}}>
             <div id="aboutme" className="blue-grey darken-4">
                 <div className="container">
                     <MDBRow className="d-flex align-items-center py-5"> {/* Vertically center content and add padding to top/bottom */}

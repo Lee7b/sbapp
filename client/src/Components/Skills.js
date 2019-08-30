@@ -5,7 +5,7 @@ import { MDBListGroup, MDBListGroupItem, MDBContainer, MDBIcon, MDBRow } from "m
 class Skills extends React.Component {
     render() {
         return (
-            <div id="skills">
+            <div id="skills" style={{paddingBottom:"50px"}}>
             <MDBContainer>
                 <h1 className="text-center">Skills</h1>
                 <MDBRow>

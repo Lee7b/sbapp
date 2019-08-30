@@ -4,7 +4,7 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardHeader, MDBCardTitle, MDBCardText,
 class Projects extends React.Component {
     render () {
     return (
-        <div id="projects" className="projects container" style={{overflowX:"hidden", overflowY:"hidden"}}>
+        <div id="projects" className="projects container" style={{overflowX:"hidden", overflowY:"hidden", paddingBottom:"50px"}}>
           <h1 className="text-center">Projects</h1>
           <div data-aos="fade-down-right">
           <MDBRow>
