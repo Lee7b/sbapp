@@ -5,7 +5,7 @@ class Contact extends React.Component {
     render () {
     return (
         <div id="contact">
-            {/* <MDBContainer className="mt-5 text-center"> */}
+            <MDBContainer className="mt-5 text-center">
                 <div>
                     <MDBRow>
                         <MDBCol>
@@ -47,11 +47,6 @@ class Contact extends React.Component {
                                     className="grey-text"
                                     size="lg"
                                 /></a>
-                                    <a href="mailto:sburk377@gmail.com"><MDBIcon
-                                    icon="envelope"
-                                    className="grey-text"
-                                    size="lg"
-                                /></a>
                                 </MDBCol>
                             </MDBCol>
                             </MDBCardBody>
@@ -59,7 +54,7 @@ class Contact extends React.Component {
                         </MDBCol>
                     </MDBRow>
                 </div>
-            {/* </MDBContainer> */}
+            </MDBContainer>
         </div>
     )
   }
